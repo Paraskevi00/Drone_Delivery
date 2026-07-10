@@ -1,0 +1,4 @@
+model,best_cv_roc_auc,best_params
+logistic_regression,0.9097225415585394,"{'classifier__C': np.float64(0.4205156450913872), 'classifier__penalty': 'l2'}"
+hist_gradient_boosting,0.907308062994252,"{'classifier__l2_regularization': np.float64(0.965255307264138), 'classifier__learning_rate': np.float64(0.07882485664694612), 'classifier__max_depth': 11, 'classifier__max_iter': 256, 'classifier__max_leaf_nodes': 29}"
+random_forest,0.8967619802691867,"{'classifier__max_depth': 11, 'classifier__max_features': None, 'classifier__min_samples_leaf': 9, 'classifier__min_samples_split': 9, 'classifier__n_estimators': 467}"
